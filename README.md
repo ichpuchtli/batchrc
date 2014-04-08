@@ -14,12 +14,21 @@ Requirements
       
 Tips & Tricks
 -------------------
-  
+
+###Node.js###
+    set PATH=%PATH%;C:\Program Files\nodejs
+    
+###MSBuild###
+    set PATH=%PATH%;C:\Program Files (x86)\MSBuild\12.0\Bin
+    
+###IISExpress###
+    set PATH=%PATH%;C:\Program Files\IIS Express
+
+###Git ([msysgit](https://code.google.com/p/msysgit/))###
+    set PATH=%PATH%;C:\Program Files (x86)\Git\bin
+
 ###Aliases###
     doskey ls=dir $*
      
-###Paths###
-    set PATH=%PATH%;C:\Users\example\bin
-    
 ###Colours###
     color f0
