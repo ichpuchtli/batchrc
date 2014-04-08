@@ -1,7 +1,7 @@
 batchrc
 =======
 
-My Windows Command Prompt RunComs
+The windows equivalent of **.bashrc**, one step towards a better windows based development environment.
 
 Requirements
 ------------
@@ -11,9 +11,19 @@ Requirements
     > regedit
     [HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor]
       AutoRun=%HOMEPATH%\batchrc.cmd
-      
-Tips & Tricks
+ 
+ 
+Tips
 -------------------
+    
+###Aliases###
+    doskey ls=dir $*
+     
+###Colours###
+    color f0
+    
+Typical Application Paths
+-------------------------
 
 ###Node.js###
     set PATH=%PATH%;C:\Program Files\nodejs
@@ -30,8 +40,6 @@ Tips & Tricks
 ###Python 2.x###
     set PATH=%PATH%;C:\Python27
     
-###Aliases###
-    doskey ls=dir $*
-     
-###Colours###
-    color f0
+References
+----------
+[AutoRun Reference [SuperUser]](http://superuser.com/a/144348)
