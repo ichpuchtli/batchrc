@@ -27,6 +27,9 @@ Tips & Tricks
 ###Git ([msysgit](https://code.google.com/p/msysgit/))###
     set PATH=%PATH%;C:\Program Files (x86)\Git\bin
 
+###Python 2.x###
+    set PATH=%PATH%;C:\Python27
+    
 ###Aliases###
     doskey ls=dir $*
      
